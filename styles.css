@@ -21,6 +21,13 @@ body {
   align-content: center;
 }
 
+svg {
+  transition: all 0.5s ease;
+}
+svg:hover {
+  filter: drop-shadow(gold 0 0 20px)
+}
+
 .enter-screen .continue {
   position: absolute;
   width: 100%;
