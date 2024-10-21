@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: rgb(223, 223, 223);
+}
+
+.enter-screen {
+  background-color: rgb(20, 20, 20);
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 100vh;
+}
+
+.enter-screen main {
+  text-align: center;
+  align-content: center;
+}
+
+.enter-screen .continue {
+  position: absolute;
+  width: 100%;
+  bottom: 0rem;
+  height: 6rem;
+  line-height: 6rem;
+  left: 0;
+  text-align: center;
+}
+
+.continue a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 0.6rem;
+}
+
+.slide-2 {
+  background-color: blue;
+  height: 100vh;
+}
+
+.dashboard-header {
+  background-color: white;
+  padding: 1.25rem;
+}
+
+.dashboard-sidebar {
+  color: #fff;
+  background-color: darkblue;
+}
+
+.dashboard-footer {
+  background-color: yellow;
+  padding: 1.25rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  line-height: 1.3;
+}
